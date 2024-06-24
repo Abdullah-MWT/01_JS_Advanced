@@ -50,4 +50,25 @@ let cancat = `${txt1.concat(" ", txt2)}`;
 console.log(cancat);
 
 
-//6:- 
+//6:-    .repeat     "Used to make the cpies of a single string"     
+let text1 = "Hi, Welcome to EveryOne   ";
+let text2 = text1.repeat(3);
+console.log(text2);
+
+
+
+//7:-    .replace    "Used to replace string or part off it with something else"
+let str1 = "Welcome to the world of Developers and Developers";
+let str2 = str1.replace(/Developers/g, "Coders");
+console.log(str2);
+
+
+
+//8:-   .replaceAll    "Used to replace the similar word or ST on all the places in a specific String"
+let text3 = "I Love Pakistan. Pakistan Is a Very Lovely And Beautiful . Pakistan Zindabad.";
+let text4 = text3.replaceAll("Pakistan", "Hafsa Gul");
+console.log(text4);
+
+
+
+//9:-   

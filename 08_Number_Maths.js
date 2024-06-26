@@ -25,12 +25,16 @@ console.log(Math.abs(-6));   // "Used to change negative num into positive" // A
 console.log(Math.round(7.6));  // "Used for rounding-off a number"
 console.log(Math.ceil(8.2));  // "Changes the num into the next one if it,s a bit more than whole like 8.2 to: 9"
 console.log(Math.floor(8.2));  // "Keeps the number as same , means brings it to lower Like 8.2 to: 8"
+console.log(Math.max(3,6,8,1,5,2));  // "will give us the max"
+console.log(Math.min(3,6,8,1,5,2));
 
 
 console.log(Math.random()); // This math function guves us any number between 0 and 1 
 console.log(Math.floor(Math.random()*100)+1);  // so now it,ll give us random number between 1 and 100
 
-
+let minValue  = 50;
+let maxValue = 100;
+console.log(Math.floor(Math.random()*(maxValue - minValue +1) + minValue)); // Recommended fromula by Sir Hitesh Choudry
 
 
 

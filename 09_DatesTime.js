@@ -40,3 +40,10 @@ let time = todayDate.getTime();
 console.log('Time in milliseconds since January 1, 1970:', time);
 
 
+
+ todayDate.toLocaleString('default', {
+    weekday: "long",
+    month: "2-digit"
+ })
+
+
